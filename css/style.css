@@ -1,0 +1,25 @@
+html {
+    font-size: 62.5%;
+}
+
+
+#main-menu li{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: slateblue;
+    background-color: snow;
+    padding: 0.5rem 0.5rem;
+    margin: 2rem;
+    width: 20%;
+}
+
+#main-menu li:hover{
+    box-shadow: 0 0 2px 1px thistle;
+}
+
+img{
+    width: 50rem;
+    height: 50rem;
+    padding: 2rem 1rem;
+    border-radius: 50%;
+}
