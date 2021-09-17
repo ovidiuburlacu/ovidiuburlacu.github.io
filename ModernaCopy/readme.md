@@ -22,4 +22,5 @@ No change
 ### the image indicating where the video should be is missing
 ## Copy why-us image (line 176 in index.html)
 ## Copy favicons (lines 13 and 14)
+## Copy backgroung image for the top carousel. Referenced in style.css line 328
 ### website looks and feels like the original
