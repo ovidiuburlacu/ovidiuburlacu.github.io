@@ -44,32 +44,29 @@
 
       <div class="logo">
         <h1 class="text-light"><a href="index.html"><span>Game Theory</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.html"><img src="images/prisonersLogo.jpg" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">Author</a></li>
           <li><a href="description.html">Description</a></li>
           <li><a href="uses.html">Uses</a></li>
-          <li><a href="strategies.html">Strategies</a></li>
+          <li><a class="active " href="strategies.html">Strategies</a></li>
           <li class="dropdown"><a href="#"><span>Simulations</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="simHuman.html">Human vs Computer</a></li>
               <li class="dropdown"><a href="#"><span>Computer vs Computer</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="simComp.html">Generic</a></li>
-                  <li><a href="#">Tit for Tat</a></li>
-                  <li><a href="#">Forgiving</a></li>
-                  <li><a href="#">Hawk vs Dove</a></li>
+                  <li><a href="simTitTat.html">Tit for Tat</a></li>
+                  <li><a href="simForgiving.html">Forgiving</a></li>
+                  <li><a href="simHawkDove.html">Hawk vs Dove</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-<!--          <li><a href="contact.html">Contact Us</a></li>
--->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,7 +75,88 @@
   </header><!-- End Header -->
 
   <main id="main">
+   <!-- ======= Service Details Section ======= -->
+   <section class="service-details">
+    <div class="container">
 
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/chess2.jpeg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><a href="cooperate.html">Always Coooperate</a></h5>
+              <p class="card-text">Cooperates unconditionally</p>
+              <div class="read-more"><a href="cooperate.html"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/chess2.jpeg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><a href="betray.html">Always Defect</a></h5>
+              <p class="card-text">Defects unconditionally</p>
+              <div class="read-more"><a href="betray.html"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/chess2.jpeg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><a href="retaliate.html">Retaliate (Tit for Tat)</a></h5>
+              <p class="card-text">Cooperates on the first round and imitates its opponent's previous move thereafter.</p>
+              <div class="read-more"><a href="retaliate.html"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/chess2.jpeg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><a href="forgiving.html">Forgiving (Tit for 2 Tats)</a></h5>
+              <p class="card-text">Cooperates unless defected against twice in a row</p>
+              <div class="read-more"><a href="forgiving.html"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/chess2.jpeg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><a href="trigger.html">Trigger</a></h5>
+              <p class="card-text">Cooperates until its opponent has defected once, then defects for the rest of the game.</p>
+              <div class="read-more"><a href="trigger.html"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/chess2.jpeg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><a href="random.html">Random</a></h5>
+              <p class="card-text">Cooperates and defects in a random order.</p>
+              <div class="read-more"><a href="random.html"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Service Details Section -->
 
   </main><!-- End #main -->
 

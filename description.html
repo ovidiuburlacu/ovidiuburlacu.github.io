@@ -44,15 +44,14 @@
 
       <div class="logo">
         <h1 class="text-light"><a href="index.html"><span>Game Theory</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.html"><img src="images/prisonersLogo.jpg" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">Author</a></li>
-          <li><a href="description.html">Description</a></li>
+          <li><a class="active " href="description.html">Description</a></li>
           <li><a href="uses.html">Uses</a></li>
           <li><a href="strategies.html">Strategies</a></li>
           <li class="dropdown"><a href="#"><span>Simulations</span> <i class="bi bi-chevron-down"></i></a>
@@ -61,15 +60,13 @@
               <li class="dropdown"><a href="#"><span>Computer vs Computer</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="simComp.html">Generic</a></li>
-                  <li><a href="#">Tit for Tat</a></li>
-                  <li><a href="#">Forgiving</a></li>
-                  <li><a href="#">Hawk vs Dove</a></li>
+                  <li><a href="simTitTat.html">Tit for Tat</a></li>
+                  <li><a href="simForgiving.html">Forgiving</a></li>
+                  <li><a href="simHawkDove.html">Hawk vs Dove</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-<!--          <li><a href="contact.html">Contact Us</a></li>
--->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,7 +75,45 @@
   </header><!-- End Header -->
 
   <main id="main">
+    <!-- ======= Video and Links Section ======= -->
+    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <div class="container">
 
+        <div class="row">
+          <div class="col-lg-4 video-box">
+            <img src="images/Cover-Prisoners-Dilemma.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=jUTWcYXVR5w" class="venobox play-btn mt-0" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-8 d-flex flex-column justify-content-center p-5">
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-dollar-circle"></i></div>
+              <h4 class="title"><a href="nonZero.html">Non-Zero-Sum Games</a></h4>
+              <p class="description">Non-zero-sum games are not strictly competitive, they also have cooperative elements. Players engaged in a non-zero sum conflict have some complementary interests and some interests that are completely opposed.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-key"></i></div>
+              <h4 class="title"><a href="theory.html">Prisoner's Dilemma Theory</a></h4>
+              <p class="description">Two criminals are captured by the police. The prisoners are put in separate cells with no way to communicate with one another and each is offered to confess.<br>If neither confess, both get convicted to 1 year.<br>If both confess, both are sentenced to 5 years.<br>If one confesses and the other does not, the one who confess is granted immunity, the other is senteced to 20 years.</p>
+            </div>
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-crown"></i></div>
+              <h4 class="title"><a href="payoff.html">Payoff</a></h4>
+              <p class="description">On one hand, is tempting to confess. But the best outcome for both prisoners is when neither confesses.</p>
+            </div>
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-detail"></i></div>
+              <h4 class="title"><a href="iterative.html">Iterative</a></h4>
+              <p class="description">In the iterative version, the players may remember if the other prisoner confessed or not, and decide accordingly. Would you forgive and collaborate with someone who betrayed you, for a better outcome for both? </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Video and Links Section -->
 
   </main><!-- End #main -->
 
