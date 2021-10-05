@@ -17,10 +17,12 @@ Page 2: about.html
 ## Description
 Page 3: description.html
 - file exists; empty
-### Non Zero Sum Games
-Page 4a: nonZero.html
-### Prisoner's dilema theory
-Page 4: theory.html
+									### Non Zero Sum Games
+									Page 4a: nonZero.html
+									- completed
+									### Prisoner's dilema theory
+									Page 4: theory.html
+									- completed
 ### Payoff
 Page 5: payoff.html
 ### Iterative
