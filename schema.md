@@ -14,41 +14,51 @@ Page 2: about.html
 ### About me
 ### About the class
 
-## Description
-Page 3: description.html
-- file exists; empty
+							## Description
+							Page 3: description.html
+							- completed
 									### Non Zero Sum Games
 									Page 4a: nonZero.html
 									- completed
 									### Prisoner's dilema theory
 									Page 4: theory.html
 									- completed
-### Payoff
-Page 5: payoff.html
-### Iterative
-Page 6: iterative.html
+									### Payoff
+									Page 5: payoff.html
+									- completed
+									### Iterative
+									Page 6: iterative.html
+									- completed
 
-## Uses
-Page 7: uses.html
+								## Uses
+								Page 7: uses.html
+								- completed
 ### Game theory
 Page 8: gameTheory.html
-### Evolution Theory
-Page 9: evolution.html
+								### Evolution Theory
+								Page 9: evolution.html
+								- completed
 ### Geopolitics
 Page 10: geopolitics.html
-### Business
-Page 11: business.html
+								### Business
+								Page 11: business.html
+								- completed
 
-## Strategies
-Page 12: strategies.html
-### Always Cooperate
-Page 13: cooperate.html
-### Always Betray
-Page 14: betray.html
-### Retaliate (tit for tat)
-Page 15: retaliate.html
-### Forgiving (tit for 2 tats)
-Page 16: forgiving.html
+							## Strategies
+							Page 12: strategies.html
+							- complete
+							### Always Cooperate
+							Page 13: cooperate.html
+							- complete
+							### Always Betray
+							Page 14: betray.html
+							- complete
+							### Retaliate (tit for tat)
+							Page 15: retaliate.html
+							- complete
+							### Forgiving (tit for 2 tats)
+							Page 16: forgiving.html
+							- complete
 ### Trigger
 Page 16b: trigger.html
 ### Strategy 6
