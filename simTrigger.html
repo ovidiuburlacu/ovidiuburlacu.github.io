@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PD - Simulation Random</title>
+  <title>PD - Simulation Trigger</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -85,7 +85,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Simulation of random plays</h2>
+          <h2>Simulation for the trigger strategy</h2>
           <p>Use the start button below to start a simulation of an iterative game of prisoner's dilemma.</p>
         </div>
 
@@ -94,9 +94,12 @@
             <img src="assets/img/features-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-4">
-            <h3>In this simulation two players using a random strategy will face each other.</h3>
+            <h3>In this simulation a "Trigger" player faces a player that has a random strategy.</h3>
             <p class="fst-italic">
-              Each player's move is determined by a random number generator.
+              Remember that in the Trigger strategy, player starts by collaborating. Once the opponent defects at least one, the player continues as a hawk, and always defects.
+            </p>
+            <p class="fst-italic">
+              The opponent (player 2) will be choosing by random whether to collaborate or defect on each round.
             </p>
             <ul>
               <li><i class="bi bi-check"></i> If both players collaborate, they both get $30.</li>
@@ -107,7 +110,7 @@
         </div>
 
 <div class=" col-lg-6 col-md-6">
-  <button class="btn btn-primary btn-lg" onclick="simulateIPD(10,'random', 'random');" style="font-family: sans-serif;">START</button>
+  <button class="btn btn-primary btn-lg" onclick="simulateIPD(10,'trigger', 'random');" style="font-family: sans-serif;">START</button>
   <div class="form-floating">
     <textarea class="form-control" placeholder="See results here" id="simulationResults" style="height: 400px"></textarea>
     <label for="simulationResults">Simulation for 10 rounds of play</label>

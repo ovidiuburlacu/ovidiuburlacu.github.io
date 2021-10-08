@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Prisoner's Dilemma Theory - Index</title>
+  <title>PD - Simulation HawkDove</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,19 +52,19 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">Author</a></li>
           <li><a href="description.html">Description</a></li>
           <li><a href="uses.html">Uses</a></li>
           <li><a href="strategies.html">Strategies</a></li>
           <li class="dropdown"><a href="#"><span>Simulations</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="simHuman.html">Human vs Computer</a></li>
+              <!--<li><a href="simHuman.html">Human vs Computer</a></li>-->
               <li class="dropdown"><a href="#"><span>Computer vs Computer</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="simComp.html">Generic</a></li>
                   <li><a href="simTitTat.html">Tit for Tat</a></li>
-                  <li><a href="simForgiving.html">Forgiving</a></li>
+                  <li><a href="simTrigger.html">Trigger</a></li>
                   <li><a href="simHawkDove.html">Hawk vs Dove</a></li>
                 </ul>
               </li>
@@ -80,9 +80,45 @@
 
 
   <main id="main">
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Hawk vs Dove Simulation</h2>
+          <p>Use the start button below to start a simulation of an iterative game of prisoner's dilemma.</p>
+        </div>
 
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src="assets/img/features-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4">
+            <h3>In this simulation a Hawk player faces a Dove player. This will not end well for the dove player.</h3>
+            <p class="fst-italic">
+              Remember that in the Hawk strategy, the player always defects.
+            </p>
+            <p class="fst-italic">
+              The second player will play a Dove strategy, meaning that it will always cooperate.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> If both players collaborate, they both get $30.</li>
+              <li><i class="bi bi-check"></i> If one of them collaborates and the other betrays, the one who chose to betray gets $50, while the other one gets nothing.</li>
+              <li><i class="bi bi-check"></i> If both players choose to betray, they both get $10.</li>
+            </ul>
+          </div>
+        </div>
 
+<div class=" col-lg-6 col-md-6">
+  <button class="btn btn-primary btn-lg" onclick="simulateIPD(10,'hawk', 'dove');" style="font-family: sans-serif;">START</button>
+  <button type="button" class="btn btn-secondary btn-lg" onclick="clearSimRes();">Clear</button>
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="See results here" id="simulationResults" style="height: 400px"></textarea>
+    <label for="simulationResults">Simulation for 10 rounds of play</label>
+  </div>
+</div>
+</div>
+</section><!-- End Features Section -->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -153,6 +189,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/simulate.js"> </script>
 
 </body>
 
